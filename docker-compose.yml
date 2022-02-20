@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  angular-app:
+    build: .
+    container_name: angular-app
+    networks:
+      - sample-app
+
+
+networks:
+  sample-app:
+    driver: bridge

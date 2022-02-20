@@ -6,6 +6,8 @@ services:
     container_name: angular-app
     networks:
       - angular-app
+    ports:
+      - 80:80
 
 
 networks:

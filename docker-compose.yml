@@ -5,9 +5,9 @@ services:
     build: .
     container_name: angular-app
     networks:
-      - sample-app
+      - angular-app
 
 
 networks:
-  sample-app:
+  angular-app:
     driver: bridge
